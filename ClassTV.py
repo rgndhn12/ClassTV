@@ -39,9 +39,4 @@ class Tv:
     def volume_down(self):
         self.volume_level -= 1
 
-    
-         
 
-
-#make another file for instantiate
-#print the output
