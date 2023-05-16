@@ -21,7 +21,7 @@ tv_one = Tv(30, 3, True)
 tv_two = Tv(3, 2, False)
 
 #print the output
-print(Fore.LIGHTBLUE_EX+pyfiglet.figlet_format(" THE CHANNEL AND VOLUME LEVEL IS...",font="contessa"))
+print(Fore.LIGHTMAGENTA_EX+pyfiglet.figlet_format(" THE CHANNEL AND VOLUME LEVEL IS...",font="contessa"))
 print(Fore.LIGHTWHITE_EX+border_2)
 time.sleep(5)
 print(Fore.LIGHTYELLOW_EX+pyfiglet.figlet_format(f"tv1's channel is {tv_one.get_channel()} , volume level is {tv_one.get_volume()}", font="digital"))
