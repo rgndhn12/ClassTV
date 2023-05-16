@@ -3,11 +3,19 @@
 #create a class TV
 
 class Tv:
-    #parameterized constructor
+    #constructor
     def __init__(self, channel, volumeLevel, power):
         self.channel = channel 
         self.volume_level = volumeLevel
         self.power = power
+
+    def turn_on(self):
+        self.power = True
+    
+    def turn_off(self):
+        self.power = False
+
+    
 
 
 #make another file for instantiate
