@@ -24,6 +24,11 @@ class Tv:
     def get_volume(self):
         return self.volume_level
     
+    def set_volume(self, volumeLevel):
+        self.volume_level = volumeLevel
+    
+
+    
          
 
 
